@@ -8,7 +8,7 @@ This was specifically designed to put events for one Socialize/Hangouts groups o
 ### Technologies used :
 #### Frontend:
 
- * Using my own Custom UI : Here I had pick a JS/CSS for the front end and use Django Page Templates. But for the APIs I used dynamic front-end as its require base.
+ *  Here I had pick a JS/CSS for the front end and use Django Page Templates.
 
 #### Backend:
 
@@ -83,12 +83,6 @@ This command will migrate all our database in to SQLite3 file.
 ⌨️  Using Django Template Inheritance
  * By creating custom templates of the app structure and applying the UI of the app front end
 
-⌨️  Data Definition :
-
- * Data has 3 main categories that will be temporary data, semi-persistent data and persistent data.
- * Temporary Data has User Input, Selected Blog Posts. This data is also used immediately and lost thereafter. It also stored in memory including Variables.
- * Semi-Persistent Data is used for user authentication status. This data is also stored for a longer time but may be lost so that it can be re-created.
- * Persistent Data is used for blog posts, orders and so on. It is used for the data to stored forever and must not be lost. It can be also stored in a Database.
 
 ⌨️  Using Models
 
@@ -120,14 +114,6 @@ To check your uploaded image in browser you can go into this link, for example,
 ```
 You can now see the preview of your image
 ⌨️  Configuring the Admin Area
-
-⌨️  Setting one-to-many Relations
-
- * There are different kinds of relationships. One-to-Many such as, one book as one author, one author write multiple books. One-to-One such as, one author has one address, one address belongs to author.
-
-⌨️  Many-to-many Relations
-
- * Many-to-Many example, a book can published in many countries or a country can publish many books.
 
 ⌨️  More Socialize Fields & Outputting Related Data
 
